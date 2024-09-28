@@ -1,0 +1,59 @@
+.body{
+  width: 100vw; /* ใช้ความกว้างและความสูงเต็มหน้าจอ */
+  height: 100vh;
+  background-color: #2e2f33;
+  display: flex; /* ใช้ Flexbox */
+  justify-content: center; /* จัดแนวนอนให้อยู่ตรงกลาง */
+  align-items: center; /* จัดแนวตั้งให้อยู่ตรงกลาง */
+}
+
+.card-profile{
+  background-color: #f7f7f7;
+  margin-top: 15vh;
+  margin-left: 0vw;
+  height: 500px;
+}
+  
+.back-arrow {
+  position: absolute;
+  margin-top: -20vh;
+  margin-left: 46vh;
+  cursor: pointer;
+}
+
+.profile{
+  font-family: "Roboto", sans-serif;
+  margin-top: -13vh;
+  
+}
+  
+.images-logo-profile {
+  margin-top: -1vh;
+  margin-left: -2vh;
+}
+
+.profilepic{
+  margin-left: -33vh;
+  margin-top: -70px;
+}
+  
+.groupinfo{
+  /* line-height: 0.7; */
+  font-family: "Roboto", sans-serif;
+  margin-left: 35vh;
+  margin-top: -30vh;
+}
+
+.edit-imf-button{
+  margin-right: 5vh;
+  background-color: #ffa24c !important;
+  color: #000000 !important;
+
+}
+
+.edit-imf-button.ant-btn:hover{
+  background-color: #ff8c1a !important;
+  border-color: #ff8c1a !important;
+  color: #000000 !important;
+
+}

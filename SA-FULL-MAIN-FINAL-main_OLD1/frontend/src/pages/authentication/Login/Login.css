@@ -1,0 +1,31 @@
+.card-login{
+  background-color: #e2dfdf;
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  height: 500px;
+}
+
+.loginpage-button{
+  background-color: #ffa24c !important;
+  margin-right: 5vh;
+}
+
+.loginpage-button.ant-btn:hover{
+  background-color: #ff8c1a !important;
+  border-color: #ff8c1a !important;
+}
+
+.cancelloginpage-button{
+  background-color: #444 !important;
+}
+
+.cancelloginpage-button.ant-btn:hover{
+  background-color: #333 !important;
+  border-color: #333 !important;
+}
+
+.signup-now{
+  margin-top: 5vh;
+}
+
