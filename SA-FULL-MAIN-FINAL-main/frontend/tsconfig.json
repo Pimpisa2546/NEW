@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                         // เวอร์ชันของ JavaScript
+    "module": "esnext",                          // ระบบโมดูล (เช่น ESNext สำหรับ React 18)
+    "moduleResolution": "node",                  // สำหรับการใช้งานโมดูลที่มาจาก node_modules
+    "jsx": "react-jsx",                          // ตั้งค่า JSX สำหรับ React
+    "esModuleInterop": true,                     // ช่วยให้ใช้งานโมดูล ES6 กับ CommonJS ได้
+    "allowSyntheticDefaultImports": true,        // อนุญาตการนำเข้าโมดูลแบบ ES Module
+    "strict": true,                              // เปิดการตรวจสอบ TypeScript อย่างเข้มงวด
+    "skipLibCheck": true                         // ข้ามการตรวจสอบประเภทไลบรารี
+  },
+  "files": [],                                   // สำหรับไฟล์ TypeScript เฉพาะ
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

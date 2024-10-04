@@ -1,0 +1,46 @@
+
+  .ant-table-thead > tr > th {
+    background-color: #cfd1d2 !important; /* สีฟ้าอ่อน */
+    color: #000; /* สีของข้อความในหัวตาราง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  }
+  
+
+  .custom-modal {
+    border-radius: 10px; /* ทำให้กรอบมีความโค้ง */
+  }
+  
+  .custom-button {
+    background-color: #ff8c00; /* เปลี่ยนสีพื้นหลัง */
+    border-color: #ff8c00; /* เปลี่ยนสีกรอบ */
+    color: white; /* เปลี่ยนสีข้อความ */
+  }
+
+  .custom-modalsellrate .ant-modal-body {
+    max-height: 400px; /* ปรับความสูงตามต้องการ */
+    overflow-y: auto;  /* ทำให้สามารถเลื่อนในแนวตั้งได้ */
+  }
+
+  .table-container {
+    padding: 0; /* กำหนด padding เป็น 0 เพื่อให้หัวตารางชิดด้านบน */
+    margin-top: 0; /* กำหนด margin เป็น 0 เพื่อไม่มีระยะห่างระหว่างตารางและขอบบน */
+  }
+  
+  .custom-table {
+    margin-top: 0; /* จัดการ margin ของตารางให้ชิดบนสุด */
+    width: 100%; /* กำหนดความกว้างของตารางเป็น 100% เพื่อให้ขยายเต็มหน้าจอ */
+  }
+  
+  .ant-table-thead > tr > th {
+    padding: 8px; /* ลด padding ของหัวตารางถ้าจำเป็น */
+    background-color: #fafafa; /* เพิ่มสีพื้นหลังเพื่อแยกหัวตาราง */
+  }
+  
+  .ant-table {
+    border-collapse: collapse; /* ทำให้ตารางชิดกันมากขึ้น */
+  }
+  
+  body {
+    margin: 0; /* กำจัด margin ของ body เพื่อให้แน่ใจว่าไม่มีระยะห่างด้านบน */
+  }
+  

@@ -1,0 +1,45 @@
+import { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import './re_bar.css';
+
+const Navbar = () => {
+  const [active, setActive] = useState('Review');
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const path = location.pathname.split('/')[1];
+    if (path === 'ReviewPage') {
+      setActive('ReviewPage');
+    } else {
+      setActive('Review');
+    }
+  }, [location]);
+
+  const handleClick = (page: string) => {
+    setActive(page);
+    navigate(`/${page}`);
+  };
+
+  return (
+    <div className="nav">
+      <div className="text-re_bar">
+        <p
+          onClick={() => handleClick('Review')}
+          className={active === 'Review' ? 'active' : ''}
+        >
+          ยังไม่ได้รีวิว
+        </p>
+        <div className="divider"></div>
+        <p
+          onClick={() => handleClick('ReviewPage')}
+          className={active === 'ReviewPage' ? 'active' : ''}
+        >
+          รีวิวแล้ว
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
